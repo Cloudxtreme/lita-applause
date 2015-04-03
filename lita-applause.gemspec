@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-applause"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Nate Holland"]
   spec.email         = ["nateh@spiceworks.com"]
   spec.description   = "Bot sends applause gifs"
