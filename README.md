@@ -15,8 +15,19 @@ gem "lita-applause"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+There are no required configurations.
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+Applause will trigger whenever the following are said:
+
+```
+% applause
+% applaud
+% slow clap
+% bravo
+```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
