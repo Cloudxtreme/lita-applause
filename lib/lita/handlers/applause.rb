@@ -2,7 +2,7 @@ module Lita
   module Handlers
     class Applause < Handler
 
-      images = [
+      IMAGES = [
         'http://assets0.ordienetworks.com/images/GifGuide/clapping/Kurtclapping.gif',
         'http://assets0.ordienetworks.com/images/GifGuide/clapping/riker.gif',
         'http://assets0.ordienetworks.com/images/GifGuide/clapping/hp3.gif',
@@ -20,7 +20,7 @@ module Lita
       })
 
       def applause(response)
-        response.reply images.sample
+        response.reply IMAGES.sample
       end
     end
 
